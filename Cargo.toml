@@ -1,0 +1,11 @@
+[package]
+name = "heartbeat_client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.89"
+crossbeam-channel = "0.5.13"
+ctrlc = "3.4.5"
+serialport = "4.5.0"
+signal-hook = "0.3.17"
